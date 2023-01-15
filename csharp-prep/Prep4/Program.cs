@@ -30,9 +30,11 @@ class Program
         
         Console.WriteLine($"The sum is: {sum}");
 
+        // average of the numbers //
         int average = sum / numbers.Count;
         Console.WriteLine($"The average is: {average}");
-
+        
+        // the maximum of the numbers //
         int max = numbers[0];
         foreach (int number in numbers)
         {
